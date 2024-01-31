@@ -68,7 +68,6 @@ object DDMSpark extends App {
         List[String]()
       }
     }
-
     time {Sindy.discoverINDs(getFiles(path.toString), spark)}
   }
 }
